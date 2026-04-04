@@ -13,35 +13,8 @@ These capabilities are essential for Cloud Administrators, Azure Support Enginee
 
 Azure RBAC, Policy & Cost Management Architecture
 
-+---------------------------------------------------------------+
-|                     Microsoft Entra ID                        |
-|---------------------------------------------------------------|
-|   Users:                                                      |
-|     • project.admin                                           |
-|     • project.reader                                          |
-|                                                               |
-|   Groups:                                                     |
-|     • RG-Admins (Contributor)                                 |
-|     • RG-Readers (Reader)                                     |
-+---------------------------------------------------------------+
+![Architecture Rbac](screenshots-RBAC/architecture-rbac.png)
 
-                 | RBAC Assignments
-                 v
-
-+---------------------------------------------------------------+
-|                        Resource Group                         |
-|---------------------------------------------------------------|
-|   Role Assignments:                                           |
-|     • Contributor → RG-Admins                                 |
-|     • Reader → RG-Readers                                     |
-|                                                               |
-|   Policy Assignment:                                          |
-|     • Allowed Locations → West Europe                         |
-|                                                               |
-|   Cost Management:                                            |
-|     • Budget: 10 CHF                                          |
-|     • Alert at 80%                                            |
-+---------------------------------------------------------------+
 
 ## A. Create Users
 ### Steps
