@@ -123,19 +123,13 @@ Alert threshold: 80%
 
 
 ##  Skills Demonstrated
-Microsoft Entra ID (Users & Groups)
-
-Role‑Based Access Control (RBAC)
-
-Group‑based access delegation
-
-Azure Policy (Allowed Locations)
-
-Cost Management & Budget Alerts
-
-Real‑world governance workflows
-
-Documentation & architecture design
+- Microsoft Entra ID (Users & Groups)
+- Role‑Based Access Control (RBAC)
+- Group‑based access delegation
+- Azure Policy (Allowed Locations)
+- Cost Management & Budget Alerts
+- Real‑world governance workflows
+- Documentation & architecture design
 
 ##  Conclusion
 This project showcases essential Azure administration and governance capabilities.
