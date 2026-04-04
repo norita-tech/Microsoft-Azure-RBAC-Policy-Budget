@@ -2,16 +2,13 @@
 ## Overview
 This project demonstrates how to implement Role‑Based Access Control (RBAC), Azure Policy, and Cost Management Budgets in Microsoft Azure.
 It simulates a real‑world scenario where:
-
-Different users receive different access levels
-
-Access is managed through security groups
-
-Resource deployments are restricted to approved regions
-
-Spending is controlled through budgets and alerts
+- Different users receive different access levels
+- Access is managed through security groups
+- Resource deployments are restricted to approved regions
+- Spending is controlled through budgets and alerts
 
 These capabilities are essential for Cloud Administrators, Azure Support Engineers, and anyone working with Azure governance and compliance.
+
 ## Architecture
 
 Azure RBAC, Policy & Cost Management Architecture
@@ -47,12 +44,12 @@ Azure RBAC, Policy & Cost Management Architecture
 +---------------------------------------------------------------+
 
 ## A. Create Users
-###Steps
+### Steps
 Microsoft Entra ID → Users
 
 + New user → Create new user
 
-Create:
+## Create:
 
 project.admin@<tenant>.onmicrosoft.com
 
@@ -70,7 +67,7 @@ Entra ID → Groups
 
 + New group
 
-Create:
+### Create:
 
 RG-Admins (Assigned)
 
@@ -87,7 +84,7 @@ Resource Group → Access control (IAM)
 
 Add role assignment
 
-Assign:
+### Assign:
 
 Contributor → RG-Admins
 
@@ -106,7 +103,7 @@ Definition: Allowed locations
 
 Allowed: West Europe
 
-Scope: Resource Group
+## Scope: Resource Group
 
 ![Assign Policy](screenshots-RBAC/assign-policy.png)
 
