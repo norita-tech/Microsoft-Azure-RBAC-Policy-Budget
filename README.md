@@ -108,4 +108,8 @@ Alert threshold: 80%
 This project showcases essential Azure administration and governance capabilities.
 You implemented RBAC, enforced compliance with Azure Policy, and set up cost controls — all of which are critical skills for cloud engineering roles.
 
+## Author
+Norita
+Cloud Engineer/Cloud Administrator in training | Azure-focused | Based in Switzerland
+
 
